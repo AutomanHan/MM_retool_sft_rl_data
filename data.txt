@@ -1,0 +1,9 @@
+RL数据：
+/mnt/dolphinfs/ssd_pool/docker/user/hadoop-basecv/lanxiaohan/reasoning_hc/data/Data_Mine/MM_ReTool/SFT_CoT_Data/0612/dataset_k12_filtered_retoolprompt3rl_for_qwen_instruct.jsonl: mm-8K数据
+/mnt/dolphinfs/ssd_pool/docker/user/hadoop-basecv/lanxiaohan/reasoning_hc/data/Data_Mine/MM_ReTool/SFT_CoT_Data/0612/dataset_k12_filtered_retoolprompt3rl_for_qwen_instruct_processed.jsonl: mm-8k数据，修改过systme prompt，要求变量必须放print()里
+/mnt/dolphinfs/ssd_pool/docker/user/hadoop-basecv/lanxiaohan/reasoning_hc/data/Data_Mine/MM_ReTool/SFT_CoT_Data/0702/base_vl_38k_pr_required_codes.jsonl: virl-39k数据，根据passrate打分筛选的需要code的，大概6k条（通过率调用code会更大的样本）
+/mnt/dolphinfs/ssd_pool/docker/user/hadoop-basecv/lanxiaohan/reasoning_hc/data/Data_Mine/MM_ReTool/SFT_CoT_Data/0702/base_vl_38k.jsonl: virl39k原始数据，只是改成了retool的system prompt
+
+
+SFT数据：
+待整理
