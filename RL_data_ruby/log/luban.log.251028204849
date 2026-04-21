@@ -1,0 +1,9 @@
+2025-10-28 20:49:10.862 | INFO     | lubanml.util.user_util:set_username:62 - username[nathanchan] set to config success
+2025-10-28 20:49:11.011 | INFO     | lubanml.util.user_util:user_check:40 - tool run username: nathanchan
+2025-10-28 20:49:11.062 | INFO     | lubanml.cli.cli_model:gemini_instance:45 - start a gemini job
+2025-10-28 20:49:11.100 | INFO     | lubanml.util.utils:params_parse:425 - params_replace_dict: {'image_version': 'mirrors.tencent.com/lubanml/train:luban-llm-gemini-gpu-v2.4.3.5.dev4'}
+2025-10-28 20:49:11.129 | INFO     | lubanml.runner.gemini_instance_runner:run:84 - http://lubanmlapi.woa.com/luban/ModelTrain/GeminiCreate
+2025-10-28 20:49:11.152 | INFO     | lubanml.runner.gemini_instance_runner:run:85 - {'task_name': '', 'task_type': 'gemini', 'desc': '', 'gpu_type': 'h20', 'cluster_id': 'sg-1', 'card_num': 8, 'is_low': False, 'business_line': 'public_h20_sg_m2', 'extra_params': {'image_version': 'mirrors.tencent.com/lubanml/train:luban-llm-gemini-gpu-v2.4.3.5.dev4'}}
+2025-10-28 20:49:11.416 | WARNING  | lubanml.util.http_util:http_post:57 - http post failed, status_code:400 detail:{"code":400,"msg":"【排队消息】任务已进入业务线[public_h20_sg_m2]队列[sg1_h20_wxg-gemini-M2]，当前排位：[22]，排队原因：前方已有排队任务，需要排队等待"}
+2025-10-28 20:49:11.467 | WARNING  | lubanml.runner.gemini_instance_runner:run:104 - 任务已进入排队：任务已进入业务线[public_h20_sg_m2]队列[sg1_h20_wxg-gemini-M2]，当前排位：[22]，排队原因：前方已有排队任务，需要排队等待
+2025-10-28 20:49:11.490 | INFO     | lubanml.exception.except_dec:wrapped_func:55 - task_type:gemini-instance, state:success, time: 0
